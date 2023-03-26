@@ -1,0 +1,72 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins';
+    background-color: rgb(27, 27, 31);
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    outline: none;
+}
+
+
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: white;
+    margin: 16em 8em;
+}
+h1{
+    font-size: 4rem;
+}
+p{
+    font-size: 1.3rem;
+    width: 55%;
+    color: rgb(107, 107, 122)
+}
+
+button{
+    font-size: 1.3rem;
+    padding: .5em 1em;
+    margin-top: 3em;
+    background-color: rgb(0, 114, 255);
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media screen and (width<= 800px){
+    p{
+        width: 100%;
+    }
+    .container{
+        margin-left: 4em;
+    }
+}
+@media screen and (width<= 500px){
+    h1{
+        font-size: 3rem;
+    }
+    .container{
+        margin-right: 0;
+    }
+    .webgl{
+        right: 2em;
+    }
+}
+
+/*# sourceMappingURL=main.css.map*/
